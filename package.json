@@ -1,0 +1,29 @@
+{
+  "name": "send-mail-api",
+  "version": "1.0.0",
+  "description": "A send mail api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo 'Testing'"
+  },
+  "keywords": [
+    "send-mail-api",
+    "send",
+    "mail",
+    "api",
+    "node.js",
+    "python",
+    "go",
+    "php",
+    "js",
+    "javascript",
+    "ts",
+    "typescript"
+  ],
+  "author": "Yefee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemailer": "^6.7.2"
+  }
+}
