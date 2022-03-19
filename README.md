@@ -3,16 +3,18 @@
 ## Get started
 
 For getting started, you might be create an http request. 
-For example (For JavaScript axios):
+For example (HTTP):
 
 ```
-axios.post('https://yefee-send-mail-api.herokuapp.com', {{
-from: 'auto8mailer@gmail.com',
-pass: 'blahblahblah123'
-to:"findikliyavuzefe@gmail.com",
-title: "Hi!",
-html: "<h1 style='font-size:300px; color:crimson;'>heeei!</h1>"
-}})
+POST / HTTP/1.1
+Host: yefee-send-mail-api.herokuapp.com
+Content-Type: application/json
+Cache-Control: no-cache
+{
+"to":"findikliyavuzefe@gmail.com",
+"title": "Hi!",
+"html": "<h1 style='font-size:300px; color:crimson;'>heeei!</h1>"
+}
 ```
 if you don't want using you're own mail, you don't want to use the from & pass parameters.
 
